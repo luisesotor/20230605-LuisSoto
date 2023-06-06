@@ -1,0 +1,165 @@
+    1  ls
+    2  cd Desktop
+    3  pwd
+    4  ls
+    5  cd Digital House
+    6  ls
+    7  cd Digital
+    8  cd Digital House
+    9  cd DigitalHouse
+   10  ls
+   11  cd DH
+   12  mkdir Introinfor
+   13  cd Introinfor
+   14  mkdir clase2
+   15  cd clase2
+   16  mkdir desayuno almuerzo cena
+   17  cd almuerzo
+   18  mkdir lunes martes miercoles
+   19  cd lunes
+   20  touch milanesas.txt "huevo frito".txt papas_fritas.pdf
+   21  touch verduras
+   22  ls
+   23  mkdir almuerzosvip
+   24  ls
+   25  ls - l
+   26  ls -l
+   27  ls --help
+   28  ls -f
+   29  ls -F
+   30  ls -d
+   31  rm verduras
+   32  cd almuerzosvip
+   33  touch chocolate.txt
+   34  cd ..
+   35  cd..
+   36  cd ..
+   37  cd ..
+   38  rs -R
+   39  ls -R
+   40  cd almuerzo/lunes
+   41  mkdir almuerzosnormales
+   42  rmdir almuerzosnormales
+   43  rm -r almuerzosvip
+   44  touch helado.txt
+   45  mv helado.txt "helado de dulce de leche.txt"
+   46  cd ..
+   47  mv miercoles  miercoles_sanos
+   48  touch tarta.txt
+   49  touch tarta.txt miercoles_sanos
+   50  mv tarta.txt miercoles_sanos
+   51  mv tarta.txt ../../desayuno
+   52  cd miercoles_sanos
+   53  tarta.txt ../../desayuno
+   54  mv tarta.txt ../../desayuno
+   55  cd ..
+   56  cd..
+   57  cd ..
+   58  cd desayuno
+   59  ls
+   60  cd ..
+   61  cd -r lunes viernes
+   62  clear
+   63  mkdir repaso_clase_1y2
+   64  cd repaso_clase_1y2/
+   65  mkdir historia_de_la_contabilidad servidores interfaces_de_usuario que_haremos_hoy infraestructura
+   66  cd historia_de_la_contabilidad/
+   67  touch repaso
+   68  cd ..
+   69  touch repaso
+   70  cp repaso servidores
+   71   cp repaso interfaces_de_usuario
+   72  cd repaso que_haremos_hoy
+   73  cp repaso que_haremos_hoy
+   74  cp repaso servidores
+   75  rm repaso
+   76  ls -R
+   77  cd infraestructura
+   78  touch repaso.txt
+   79  clear
+   80  ls  -R
+   81  clear
+   82  cd ..
+   83  ls -R
+   84  mkdir informes
+   85  cd informes
+   86  touch informeanual.xls
+   87  ls
+   88  mkdir auditoria
+   89  touch auditoria.xls
+   90  touch reporteConsolidado
+   91  ls
+   92  mv auditoria.xls auditoria
+   93  cd auditoria
+   94  ls
+   95  cod
+   96  code .
+   97  mkdir Peliculas
+   98  cd Peliculas/
+   99  mkdir Infantiles Accion Terror Comedia Romanticas
+  100  cd Infantiles/
+  101  Touch Intenzamente.txt "El juego del miedo.xls" "Que paso Ayer.pdf" "We will rock you.js"
+  102  cd ../
+  103  cd Accion/
+  104  touch "Smooth Criminal.txt" "Diario de una pasion.js" "El hexorcista.xls" Cars.jpg
+  105  cd ../
+  106  cd Terror/
+  107  touch "La dam y el bagavundo.png" "Yo antes de ti.xls" "Que paso ayer.pdf" "we will rock.js"
+  108  cd ../
+  109  cd Comedia/
+  110  mkdir clase6
+  111  cm clase6
+  112  md clase6
+  113  cd clase6
+  114  mkdir ejercicio6
+  115  cd ejercicio6
+  116  touch index.html
+  117  Mkdir Entrega1 Entrega2 Entrega3 Entrega4 Entrega5 Git-Github
+  118  touch Readme.MD
+  119  cp Readme.MD Entrega1 Entrega2
+  120  cd -r Readme.MD Entrega1
+  121  cp Readme.MD Entrega1
+  122  touch index.html
+  123  mkdir css
+  124  cd css
+  125  touch style.css
+  126  touch index.html
+  127  touch style.css
+  128  mkdir imagenes
+  129  git init
+  130  git branch .m main
+  131  grit branch -m main
+  132  git branch -m main
+  133  git remote add origin https://github.com/luisesotor/20230605-LuisSoto.git
+  134  touch comandos.txt main.js index.html
+  135  git add .
+  136  git commit -m "01 de LuisSoto"
+  137  git push origin main
+  138  git checkout -b feature01
+  139  mkdir Terminal Hardware
+  140  cd terminal
+  141  touch resumen.txt
+  142  cd ..
+  143  cd hardware
+  144  touch resumen.txt
+  145  git add .
+  146  git commit -m "02 de LuisSoto"
+  147  git push origin feature01
+  148  git checkout -b feature02
+  149  git checkout feature01
+  150  cd ..
+  151  git checkout -b feature02
+  152  git checkout main
+  153  git checkout -d feature02
+  154  git push origin --delete feature02
+  155  git checkout main
+  156  git checkout feature01
+  157  git checkout -b feature02
+  158  git checkout -b feature03
+  159  git add .
+  160  git commit -m "03 de LuisSoto"
+  161  git push origin feature03
+  162  git checkout main
+  163  git mv comandos.txt comandosUtilizados.txt
+  164  git reflog
+  165  history > comandosUtilizados.txt
