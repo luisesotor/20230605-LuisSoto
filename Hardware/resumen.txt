@@ -1,0 +1,4 @@
+Partes internas
+    Fuente de poder
+    Tarjeta grafica 
+    MotherBoard
